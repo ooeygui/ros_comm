@@ -569,7 +569,7 @@ def _xml_escape(s):
         # don't escape non-string attributes
         return s
     
-TEST_TIME_LIMIT_DEFAULT = 1 * 60 #seconds
+TEST_TIME_LIMIT_DEFAULT = 3 * 60 #seconds
 
 
 class Test(Node):
